@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formularz_Burakowski </title>
+</head>
+<body>
+
+<form action="#" method="post">
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie" required><br>
+
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko" required><br>
+
+    <label>Płeć:</label>
+    <input type="radio" id="kobieta" name="plec" value="kobieta" required>
+    <label for="kobieta">Kobieta</label>
+    <input type="radio" id="mezczyzna" name="plec" value="mezczyzna" required>
+    <label for="mezczyzna">Mężczyzna</label><br>
+<br>
+    <label>W jaki sposób czytasz lektury:</label>
+    <select name="sposob_czytania" required>
+        <option value="jednorazowe_zaznaczenie">Możliwość jednorazowego zaznaczenia</option>
+        <option value="streszczenia">Czytam streszczenia</option>
+        <option value="cale_ksiazki">Czytam całe książki</option>
+        <option value="audiobooki">Słucham audiobooki</option>
+        <option value="ksiazka_i_slucho">Czytam książkę i słucham</option>
+        <option value="inne">Inne</option>
+        <option value="nie_chce_odpowiadac">Nie chcę odpowiadać</option>
+    </select><br>
+	<br>
+	
+    <label>W którym z tych języków mówisz najbieglej:</label>
+    <select name="jezyk" required>
+        <option value="polski">Polski</option>
+        <option value="angielski">Angielski</option>
+        <option value="niemiecki">Niemiecki</option>
+		 <option value="hiszpanski">Hiszpanski</option>
+    </select><br>
+
+    <label>Interesuje Cię:</label>
+    <input type="checkbox" id="czytanie" name="zainteresowania[]" value="czytanie">
+    <label for="czytanie">Czytanie</label>
+    <input type="checkbox" id="informatyka" name="zainteresowania[]" value="informatyka">
+    <label for="informatyka">Informatyka</label>
+    <input type="checkbox" id="sport" name="zainteresowania[]" value="sport">
+    <label for="sport">Sport</label><br>
+<br>
+    <label for="uwagi">Masz jakieś uwagi co do formularza?</label>
+	<br>
+    <textarea id="uwagi" name="uwagi"></textarea><br>
+
+    <input type="reset" value="Wypełnij od nowa">
+    <input type="submit" value="Wyślij">
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<A HREF="index.html"> wróć </A>
+
+</body>
+</html>
